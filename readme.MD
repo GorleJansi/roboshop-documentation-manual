@@ -39,9 +39,8 @@ All scripts handle **installation, configuration, service setup, and database in
 - ✅ Fail-safe execution with `set -euo pipefail` & error trapping  
 
 ---
-
 ## 🌐 How it Works
-```mermaid
+
 flowchart LR
     Frontend -->|API Calls| Cart
     Frontend -->|API Calls| Catalogue
