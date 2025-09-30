@@ -41,6 +41,7 @@ All scripts handle **installation, configuration, service setup, and database in
 ---
 ## 🌐 How it Works
 
+```mermaid
 flowchart LR
     Frontend -->|API Calls| Cart
     Frontend -->|API Calls| Catalogue
@@ -50,7 +51,9 @@ flowchart LR
     Shipping -->|Order Events| RabbitMQ
     User -->|Auth| MongoDB
     Catalogue -->|Data| MongoDB
-## 🚀 Quick Start
+
+
+🚀 Quick Start
 
 1. Clone the repo:
     ```bash
