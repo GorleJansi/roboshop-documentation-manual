@@ -53,6 +53,7 @@ flowchart LR
     User -->|Auth| MongoDB
     Catalogue -->|Data| MongoDB
 
+
 ## 🚀 Quick Start
 
 1. Clone the repo:
